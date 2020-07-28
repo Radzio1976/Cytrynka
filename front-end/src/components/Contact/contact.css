@@ -1,0 +1,336 @@
+#Contact {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-bottom: 25px;
+}
+
+.google-map-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 350px;
+}
+
+.address-and-contact-form-container {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.address-and-contact-form-container-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 36px;
+}
+
+.address-and-contact-form-container-title h3 {
+    font-size: 31px;
+}
+
+.address-and-contact-form-container-title hr {
+    height: 5px;
+    margin-top: 13px;
+    width: 200px;
+    background: rgb(30,187,240);
+}
+
+.address-and-contact-form-container-title h5 {
+    font-size: 21px;
+    margin-top: 41px;
+    margin-bottom: 18px;
+}
+
+.address-and-contact-form-container-title h6 {
+    font-size: 16px;
+    color: #93959b;
+}
+
+.address-and-contact-form-container-title h6:first-of-type {
+    margin-bottom: 8px;
+}
+
+.address-and-contact-form-container-content {
+    display: flex;
+}
+
+.address-and-contact-form-container-content-left {
+    width: 50%;
+}
+
+.address-and-contact-form-container-content-left h6 {
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    color: #93959b;
+}
+
+.address-and-contact-form-container-content-left h5 {
+    font-size: 18px;
+}
+
+.address-and-contact-form-container-content-left img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.address-and-contact-container {
+    display: flex;
+    padding-top: 18px;
+}
+
+.address-and-contact-form-container-content-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    padding-top: 19px;
+}
+
+.address-and-contact-form-container-content-right form {
+    width: 100%;
+}
+
+.address-and-contact-form-container-content-right form input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 11px;
+    border: 1px solid;
+    border-color: #e7e7e7;
+    border-radius: 3px;
+    font-size: 16px;
+    padding-left: 12px;
+    background-color: #fdfdfd;
+}
+
+.address-and-contact-form-container-content-right form textarea {
+    width: 100%;
+    height: 172px;
+    border: 1px solid;
+    border-color: #e7e7e7;
+    border-radius: 3px;
+    font-size: 17px;
+    padding-left: 12px;
+    padding-top: 6px;
+    background-color: #fdfdfd;
+}
+
+::placeholder {
+    color: #c4c5c8;
+}
+
+.address-and-contact-form-container-content-right form button {
+    width: 126px;
+    height: 40px;
+    margin-top: 16px;
+    border: 0px;
+    border-radius: 0px;
+    background-image: linear-gradient(to right bottom, #1ebbf0, #00c6ea, #00d0dc, #00d7c7, #38ddac);
+    font-size: 17px;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+@media (max-width: 850px) and (min-width: 750px) {
+    #Contact {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .contact-container {
+        width: 90%;
+    }
+    .google-map-container {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+
+@media (max-width: 749px) and (min-width: 650px) {
+    #Contact {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .contact-container {
+        width: 90%;
+    }
+    .google-map-container {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .address-and-contact-form-container-title {
+        padding-bottom: 14px;
+    }
+    .address-and-contact-form-container-content {
+        display: block;
+    }
+    .address-and-contact-form-container-content-left {
+        width: 100%;
+    }
+    .address-and-contact-form-container-content-right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 649px) and (min-width: 550px) {
+    #Contact {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .contact-container {
+        width: 90%;
+    }
+    .google-map-container {
+        padding-left: 4%;
+        padding-right: 4%;
+        height: 260px;
+    }
+    .address-and-contact-form-container-title {
+        padding-bottom: 14px;
+    }
+    .address-and-contact-form-container-title h3 {
+        font-size: 28px;
+    }
+    .address-and-contact-form-container-content {
+        display: block;
+    }
+    .address-and-contact-form-container-content-left {
+        width: 100%;
+    }
+    .address-and-contact-form-container-content-left img {
+        width: 32px;
+        height: 32px;
+    }
+    .address-and-contact-form-container-content-left h5 {
+        font-size: 17px;
+    }
+    .address-and-contact-form-container-content-right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 549px) and (min-width: 450px) {
+    #Contact {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .contact-container {
+        width: 90%;
+    }
+    .google-map-container {
+        padding-left: 4%;
+        padding-right: 4%;
+        height: 260px;
+    }
+    .address-and-contact-form-container-title {
+        padding-bottom: 14px;
+    }
+    .address-and-contact-form-container-title h3 {
+        font-size: 25px;
+    }
+    .address-and-contact-form-container-content {
+        display: block;
+    }
+    .address-and-contact-form-container-content-left {
+        width: 100%;
+    }
+    .address-and-contact-form-container-content-left img {
+        width: 32px;
+        height: 32px;
+    }
+    .address-and-contact-form-container-content-left h5 {
+        font-size: 17px;
+    }
+    .address-and-contact-form-container-content-right {
+        width: 100%;
+    }
+    .address-and-contact-form-container-content-right form input {
+        height: 36px;
+        margin-bottom: 7px;
+        font-size: 16px;
+    }
+    .address-and-contact-form-container-content-right form textarea {
+        height: 149px;
+        font-size: 16px;
+    }
+    .address-and-contact-form-container-content-right form button {
+        width: 108px;
+        height: 30px;
+        margin-top: 8px;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 449px) {
+    #Contact {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .contact-container {
+        width: 94%;
+    }
+    .google-map-container {
+        padding-left: 4%;
+        padding-right: 4%;
+        height: 200px;
+    }
+    .address-and-contact-form-container-title {
+        padding-bottom: 14px;
+    }
+    .address-and-contact-form-container-title hr {
+        height: 4px;
+        width: 120px;
+    }
+    .address-and-contact-form-container-title h3 {
+        font-size: 20px;
+    }
+    .address-and-contact-form-container-content {
+        display: block;
+    }
+    .address-and-contact-form-container-content-left {
+        width: 100%;
+    }
+    .address-and-contact-container {
+        padding-top: 5px;
+    }
+    .address-and-contact-form-container-content-left img {
+        width: 30px;
+        height: 30px;
+    }
+    .address-and-contact-form-container-content-left h6 {
+        font-size: 13px;
+    }
+    .address-and-contact-form-container-content-left h5 {
+        font-size: 15px;
+    }
+    .address-and-contact-form-container-content-right {
+        width: 100%;
+    }
+    .address-and-contact-form-container-content-right form input {
+        height: 30px;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    .address-and-contact-form-container-content-right form textarea {
+        height: 130px;
+        font-size: 15px;
+    }
+    .address-and-contact-form-container-content-right form button {
+        width: 100px;
+        height: 28px;
+        margin-top: 7px;
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,376 @@
+#HomeHeaderSection {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-header-title {
+    background-color: rgba(0, 0, 0, 0.219)
+}
+
+.home-header-title h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+.home-header-content h3 {
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.219);
+    color: white;
+} 
+
+.home-header-content h3:last-child {
+    padding-bottom: 20px;
+}
+
+#HomeSecondSection {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-second-content {
+    text-align: center;
+    width: 70%;
+}
+
+.home-second-content h5 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.home-second-content h5:nth-child(2) {
+    margin-top: 20px;
+}
+
+.home-second-content h5:nth-child(3) {
+    margin-top: 20px;
+}
+
+#HomeThirdSection {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3em;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #333;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.home-fourth-content-left-image, .home-fourth-content-right-image {
+    width: 45%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.home-fourth-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-fourth-content-left-image img {
+    width: 100%;
+    height: auto;
+}
+
+.home-fourth-content-left-image img:hover {
+    transform: scale(1.1);
+    transition: all 1s linear;
+}
+
+.home-fourth-content-right-image img:hover {
+    transform: scale(1.1);
+    transition: all 1s linear;
+}
+
+.home-fourth-content-right-image img {
+    width: 100%;
+    height: auto;
+}
+
+#HomeFifthSection {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 40px;
+}
+
+.home-fifth-content {
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.home-fifth-content-left-address, .home-fifth-content-right-address {
+    width: 95%;
+    text-align: center;
+    font-size: 27px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.home-fifth-content-left-address h5 {
+    font-weight: 500;
+}
+
+.home-fifth-content-right-address h5 {
+    font-weight: 500;
+}
+
+.home-fifth-content-right-address {
+    margin-left: 2%;
+}
+
+.home-fifth-content-left-address :nth-child(3) {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.home-fifth-content-left-address :nth-child(4) {
+    margin-bottom: 15px;
+}
+
+.home-fifth-content-right-address :nth-child(3) {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.home-fifth-content-right-address :nth-child(4) {
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 850px) and (min-width: 750px) {
+    #HomeHeaderSection {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    #HomeSecondSection {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .home-second-content {
+        width: 85%;
+    }
+    .home-second-content h5 {
+        font-size: 22px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 749px) and (min-width: 650px) {
+    #HomeHeaderSection {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .home-header-title h1 {
+        font-size: 45px;
+    }
+    .home-header-content h3 {
+        font-size: 25px;
+    }
+    #HomeSecondSection {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .home-second-content {
+        width: 85%;
+    }
+    .home-second-content h5 {
+        font-size: 22px;
+        font-weight: 300;
+    }
+    #HomeThirdSection {
+        display: block;
+        padding-right: 0;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .home-third-content {
+        text-align: center;
+    }
+    .home-fifth-content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 649px) and (min-width: 550px) {
+    #HomeHeaderSection {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .home-header-title h1 {
+        font-size: 35px;
+    }
+    .home-header-content h3 {
+        font-size: 18px;
+    }
+    #HomeSecondSection {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .home-second-content {
+        width: 85%;
+    }
+    .home-second-content h5 {
+        font-size: 19px;
+        font-weight: 300;
+    }
+    #HomeThirdSection {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    #HomeThirdSection {
+        display: block;
+        padding-right: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .home-third-content {
+        text-align: center;
+    }
+    .home-third-content h3 {
+        font-size: 30px;
+    }
+    .home-fifth-content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 549px) and (min-width: 450px) {
+    #HomeHeaderSection {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .home-header-title h1 {
+        font-size: 35px;
+    }
+    .home-header-content h3 {
+        font-size: 18px;
+    }
+    #HomeSecondSection {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .home-second-content {
+        width: 85%;
+    }
+    .home-second-content h5 {
+        font-size: 19px;
+        font-weight: 300;
+    }
+    #HomeThirdSection {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    #HomeThirdSection {
+        display: block;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+    }
+    .home-third-content {
+        text-align: center;
+    }
+    .home-third-content h3 {
+        font-size: 30px;
+    }
+    .home-fourth-content-left-image, .home-fourth-content-right-image {
+        width: 49%;
+    }
+    #HomeFifthSection {
+        margin-top: 18px;
+    }
+    .home-fifth-content {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .home-fifth-content-left-address h5 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 449px) {
+    #HomeHeaderSection {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .home-header-title h1 {
+        font-size: 25px;
+    }
+    .home-header-content h3 {
+        font-size: 15px;
+    }
+    #HomeSecondSection {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .home-second-content {
+        width: 85%;
+    }
+    .home-second-content h5 {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    #HomeThirdSection {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        margin-bottom: 12px;
+    }
+    #HomeThirdSection {
+        display: block;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .home-third-content {
+        text-align: center;
+    }
+    .home-third-content h3 {
+        font-size: 27px;
+    }
+    #HomeFifthSection {
+        margin-top: 8px;
+    }
+    .home-fifth-content {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .home-fifth-content-left-address :nth-child(3) {
+        margin-top: 0;
+    }
+    .home-fifth-content-left-address h5 {
+        font-size: 18px;
+    }
+}
