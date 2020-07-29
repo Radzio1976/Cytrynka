@@ -8,7 +8,7 @@
     "server": "nodemon index.js",
     "front-end": "npm start --prefix front-end",
     "dev": "concurrently \"npm run server\" \"npm run front-end\""
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Radzio1976/cytrynka.git"
