@@ -23,19 +23,19 @@ app.post('/api/forma', (req,res)=>{
 let data=req.body;
 
 let smtpTransport = nodemailer.createTransport({
-    service: 'Gmail',
+    host: 'pralniacytrynka.xaa.pl',
     port: 465,
     auth: {
-        user: process.env.EMAIL,
+        user: process.env.MY_EMAIL,
         pass: process.env.EMAIL_PASSWORD
     }
 })
 
 
 let mailOptions = {
-    from: data.email,
-    to: process.env.EMAIL_TO_SEND,
-    subject: `${data.subject}`,
+    from: 'alfa',
+    to: process.env.MY_EMAIL,
+    subject: `Od: <${data.email}>    Temat: ${data.subject}`,
     html: `    
         <h3>Informacje o nadawcy</h3>
             <ul>

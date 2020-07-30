@@ -37,7 +37,7 @@ class AddressAndContactFormContainerContentRight extends React.Component {
         })
     }
 
-    handleSubmit = (e) => {
+    handleSubmit = (e) =>  {
         e.preventDefault();
         let data = {
             name: this.state.name.value,
