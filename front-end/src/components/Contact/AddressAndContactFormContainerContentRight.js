@@ -47,20 +47,20 @@ class AddressAndContactFormContainerContentRight extends React.Component {
             subject: this.state.subject.value
         }
         let isValid = true;
-        if (this.state.name.value.length < 5) {
+        if (this.state.name.value.length < 1) {
             this.setState({
                 name: {
                     value: "",
-                    error: "Pole imię musi zawierać conajmniej 5 znaków"
+                    error: "Pole imię nie może być puste"
                 }
             })
             isValid = false;
         }
-        if (this.state.phone.value.length !== 9) {
+        if (this.state.phone.value.length < 1) {
             this.setState({
                 phone: {
                     value: "",
-                    error: "Pole telefon musi zawierać 9 cyfr"
+                    error: "Pole telefon nie może być puste"
                 }
             })
             isValid = false;
@@ -74,20 +74,20 @@ class AddressAndContactFormContainerContentRight extends React.Component {
             })
             isValid = false;
         }
-        if (this.state.subject.value.length < 5) {
+        if (this.state.subject.value.length < 1) {
             this.setState({
                 subject: {
                     value: "",
-                    error: "To pole musi zawierać conajmniej 5 znaków"
+                    error: "To pole nie może być puste"
                 }
             })
             isValid = false;
         }
-        if (this.state.text.value.length < 5) {
+        if (this.state.text.value.length < 1) {
             this.setState({
                 text: {
                     value: "",
-                    error: "To pole musi zawierać conajmniej 5 znaków"
+                    error: "To pole nie może być puste"
                 }
             })
         }
@@ -118,15 +118,15 @@ class AddressAndContactFormContainerContentRight extends React.Component {
             <div className="address-and-contact-form-container-content-right">
                 {this.state.isValid === false ?
                     <form onSubmit={this.handleSubmit}>
-                        <input type="text" name="name" value={this.state.name.value} onChange={this.handleChange} placeholder="Imię lub nazwa firmy"></input>
+                        <input type="text" name="name" value={this.state.name.value} onChange={this.handleChange} placeholder="Imię lub nazwa firmy*"></input>
                         <p>{this.state.name.error}</p>
-                        <input type="text" name="phone" value={this.state.phone.value} onChange={this.handleChange} placeholder="Telefon"></input>
+                        <input type="text" name="phone" value={this.state.phone.value} onChange={this.handleChange} placeholder="Telefon*"></input>
                         <p>{this.state.phone.error}</p>
-                        <input type="text" name="email" value={this.state.email.value} onChange={this.handleChange} placeholder="Email"></input>
+                        <input type="text" name="email" value={this.state.email.value} onChange={this.handleChange} placeholder="Email*"></input>
                         <p>{this.state.email.error}</p>
-                        <input type="text" name="subject" value={this.state.subject.value} onChange={this.handleChange} placeholder="Temat"></input>
+                        <input type="text" name="subject" value={this.state.subject.value} onChange={this.handleChange} placeholder="Temat*"></input>
                         <p>{this.state.subject.error}</p>
-                        <textarea name="text" value={this.state.text.value} onChange={this.handleChange} placeholder="Treść wiadomości"></textarea>
+                        <textarea name="text" value={this.state.text.value} onChange={this.handleChange} placeholder="Treść wiadomości*"></textarea>
                         <p>{this.state.text.error}</p>
                         <button>Wyślij</button>
                     </form> :
