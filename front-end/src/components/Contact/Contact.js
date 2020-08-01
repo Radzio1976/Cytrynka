@@ -8,7 +8,7 @@ import AddressAndContactFormContainerContentRight from './AddressAndContactFormC
 class Contact extends React.Component {
     render() {
         return (
-            <div id="Contact" style={{backgroundImage: "url('./images/hotel-room-2.jpg')"}}>
+            <div id="Contact" style={{backgroundImage: "url('./images/contact-background-3.jpg')"}}>
                 <div className="contact-container">
                     <GoogleMapContainer />
                     <div className="address-and-contact-form-container">
