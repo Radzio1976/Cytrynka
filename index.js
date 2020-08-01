@@ -35,6 +35,7 @@ let smtpTransport = nodemailer.createTransport({
 let mailOptions = {
     from: 'alfa',
     to: process.env.MY_EMAIL,
+    replyTo: data.email,
     subject: `Od: <${data.email}>    Temat: ${data.subject}`,
     html: `    
         <h3>Informacje o nadawcy</h3>
