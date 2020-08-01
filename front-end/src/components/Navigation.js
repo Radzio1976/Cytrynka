@@ -6,7 +6,7 @@ function Navigation(props) {
     return (
         <div id="Navigation">
             <div className="main-title-container">
-                <div className="logo" style={{ backgroundImage: "url('./images/Logo1.png')" }}></div>
+                <div onClick={() => props.history.push("/")} className="logo" style={{ backgroundImage: "url('./images/Logo1.png')" }}></div>
                 <h1>Ekologiczna Pralnia Wodna „Cytrynka”</h1>
             </div>
             <ul className="nav">

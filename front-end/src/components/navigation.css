@@ -4,6 +4,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .main-title-container {
