@@ -6,10 +6,10 @@ class HomeFourthSection extends React.Component {
             <div id="HomeFourthSection">
                 <div className="home-fourth-content">
                     <div className="home-fourth-content-left-image">
-                        <img src="./images/restaurant.jpg" alt="" />
+                        <img className="heartbeat" src="./images/restaurant.jpg" alt="" />
                     </div>
                     <div className="home-fourth-content-right-image">
-                        <img src="./images/hotel-room.jpg" alt="" />
+                        <img className="heartbeat" src="./images/hotel-room.jpg" alt="" />
                     </div>
                 </div>
             </div>

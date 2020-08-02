@@ -86,15 +86,79 @@
     height: auto;
 }
 
-.home-fourth-content-left-image img:hover {
-    transform: scale(1.1);
-    transition: all 1s linear;
+.heartbeat:hover {
+	-webkit-animation: heartbeat 2.5s ease-in-out infinite both;
+	        animation: heartbeat 2.5s ease-in-out infinite both;
 }
 
-.home-fourth-content-right-image img:hover {
-    transform: scale(1.1);
-    transition: all 1s linear;
-}
+@-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
 
 .home-fourth-content-right-image img {
     width: 100%;
