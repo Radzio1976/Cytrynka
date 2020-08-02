@@ -22,6 +22,11 @@
     text-decoration: none;
 }
 
+.footer-content a:hover {
+    color: #fabf3a;
+    text-decoration: none;
+}
+
 
 @media (max-width: 749px) and (min-width: 650px) {
     .footer-content {
