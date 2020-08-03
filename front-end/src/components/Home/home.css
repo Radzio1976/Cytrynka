@@ -220,6 +220,22 @@
 }
 
 
+@media (min-width: 1370px) {
+    #HomeHeaderSection {
+        padding-top: 210px;
+        padding-bottom: 210px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .home-header-title h1 {
+        padding-top: 70px;
+    }
+    .home-header-content h3:last-child {
+        padding-bottom: 80px;
+    }
+}
+
+
 @media (max-width: 850px) and (min-width: 750px) {
     #HomeHeaderSection {
         padding-top: 80px;
