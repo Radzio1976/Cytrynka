@@ -5,7 +5,7 @@ class HomeThirdSection extends React.Component {
         return (
             <div id="HomeThirdSection">
                 <div className="home-third-content">
-                    <h3>Bezpiecznie, czysto, ekologicznie</h3>
+                    <h3>STAWIAMY NA JAKOŚĆ</h3>
                 </div>
             </div>
         )
