@@ -9,7 +9,7 @@ class HomeFourthSection extends React.Component {
                         <img className="heartbeat" src="./images/restaurant.jpg" alt="" />
                     </div>
                     <div className="home-fourth-content-right-image">
-                        <img className="heartbeat" src="./images/hotel-room.jpg" alt="" />
+                        <img className="heartbeat" src="./images/hotel-room-2.jpg" alt="" />
                     </div>
                 </div>
             </div>
