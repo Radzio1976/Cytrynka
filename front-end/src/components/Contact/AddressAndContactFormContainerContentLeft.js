@@ -26,13 +26,6 @@ class AddressAndContactFormContainerContentLeft extends React.Component {
                         <h5>biuro@pralniacytrynka.pl</h5>
                     </div>
                 </div>
-                <div className="address-and-contact-form-container-content-left-working-hours address-and-contact-container">
-                    <img src="./images/business-hours-icon.png" alt=""></img>
-                    <div className="address-and-contact-form-container-content-left-text">
-                        <h6>Godziny pracy</h6>
-                        <h5>Poniedziałek - Piątek godz. 10-18</h5>
-                    </div>
-                </div>
             </div>
         )
     }
