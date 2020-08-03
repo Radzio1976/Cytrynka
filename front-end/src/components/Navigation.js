@@ -10,7 +10,7 @@ function Navigation(props) {
                 <h1>Ekologiczna Pralnia Wodna „Cytrynka”</h1>
             </div>
             <ul className="nav">
-                <li onClick={() => props.history.push("/")}>Home</li>
+                <li onClick={() => props.history.push("/")}>O nas</li>
                 <li onClick={() => props.history.push("/offer")}>Oferta</li>
                 <li onClick={() => props.history.push("/contact")}>Kontakt</li>
             </ul>
