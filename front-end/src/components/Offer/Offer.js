@@ -5,7 +5,7 @@ import './offer.css';
 function Offer(props)  {
         return (
             <div id="Offer">
-                <div className="offer-container">
+                <div className="offer-container" style={{ backgroundImage: "url('./images/offer-background.png')" }}>
                     <div className="offer-container-upper">
                         <div className="offer-container-first-text offer-container-box">
                             <div className="offer-container-first-text-wrapper">

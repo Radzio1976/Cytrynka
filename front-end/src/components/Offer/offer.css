@@ -1,11 +1,12 @@
 #Offer {
     padding-top: 150px;
     padding-bottom: 150px;
-    background-color: #a6e1e5;
 }
 
 .offer-container {
-    background-color: white;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
     padding: 25px;
     width: 80%;
     margin: 0 auto;
@@ -32,17 +33,20 @@
 }
 
 .offer-container-second-text-wrapper span {
-    color: #9395b9;
+    color: #5200EE;
     cursor: pointer;
-
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 .offer-container-second-text-wrapper span:hover {
-    color: #fabf3a;
+    font-size: 26px;
 }
 
 .offer-container-box img {
     width: 100%;
+    border: 2px solid white;
 }
 
 .offer-container-box h1 {
