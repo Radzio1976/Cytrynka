@@ -9,10 +9,16 @@ function Offer(props)  {
                     <div className="offer-container-upper">
                         <div className="offer-container-first-text offer-container-box">
                             <div className="offer-container-first-text-wrapper">
-                                <h1>Zapraszamy</h1>
-                                <h3>obiekty noclegowe,</h3>
-                                <h3>gastronomiczne,</h3>
-                                <h3>firmy,</h3>
+                            <h3>Oferujemy :</h3>
+                                <ul>
+                                    <li>- pranie bielizny hotelowej (pościele,ręczniki,szlafroki itp.)</li>
+                                    <li>- tekstyliów dla restauracji i innych obiektów gastronomicznych</li>
+                                    <li>- pranie odzieży roboczej</li>
+                                    <li>- maglowanie</li>
+                                    <li>- składanie i pakowanie</li>
+                                </ul>
+                                <h3>Zapraszamy obiekty noclegowe,</h3>
+                                <h3>gastronomiczne, firmy,</h3>
                                 <h3>klientów indywidualnych i wszystkich zainteresowanych.</h3>
                             </div>
                         </div>
@@ -36,6 +42,7 @@ function Offer(props)  {
                         </div>
                         </div>
                     </div>
+                    <h1 className="offer-container-transport">ZAPEWNIAMY TRANSPORT OD I DO KLIENTA !</h1>
                 </div>
             </div>
         )

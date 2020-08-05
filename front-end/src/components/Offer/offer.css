@@ -7,9 +7,14 @@
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
+    background-size: cover;
     padding: 25px;
     width: 80%;
     margin: 0 auto;
+}
+
+.offer-container-upper {
+    padding-bottom: 20px;
 }
 
 .offer-container-upper, .offer-container-lower {
@@ -26,6 +31,12 @@
 
 .offer-container-first-text-wrapper {
     text-align: center;
+}
+
+.offer-container-first-text-wrapper li {
+    font-size: 22px;
+    list-style-type: none;
+    font-weight: 300;
 }
 
 .offer-container-second-text-wrapper {
@@ -61,6 +72,11 @@
     margin-bottom: 2px;
 }
 
+.offer-container-transport {
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 400;
+}
 
 
 
