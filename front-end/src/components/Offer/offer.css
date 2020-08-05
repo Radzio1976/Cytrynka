@@ -79,6 +79,205 @@
 }
 
 
+@media (max-width: 1200px) and (min-width: 851px) {
+    #Offer {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .offer-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1100px) and (min-width: 851px) {
+    #Offer {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .offer-container {
+        width: 90%;
+    }
+    .offer-container-box h3 {
+        font-size: 20px;
+    }
+    .offer-container-first-text-wrapper li {
+        font-size: 20px;
+    }
+    .offer-container-transport {
+        font-size: 28px;
+    }
+    .offer-container-second-text-wrapper span:hover {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 850px) and (min-width: 750px) {
+    #Offer {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .offer-container {
+        width: 90%;
+    }
+    .offer-container-box h3 {
+        font-size: 18px;
+    }
+    .offer-container-first-text-wrapper li {
+        font-size: 18px;
+    }
+    .offer-container-transport {
+        font-size: 24px;
+    }
+    .offer-container-second-text-wrapper span:hover {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 749px) and (min-width: 650px) {
+    #Offer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .offer-container {
+        width: 90%;
+    }
+    .offer-container-box {
+        width: 88%;
+    }
+    .offer-container-box img {
+        width: 65%;
+        margin-top: 18px;
+    }
+    .offer-container-second-image {
+        display: none;
+    }
+    .offer-container-box h3 {
+        font-size: 20px;
+    }
+    .offer-container-first-text-wrapper li {
+        font-size: 20px;
+    }
+    .offer-container-transport {
+        font-size: 24px;
+    }
+    .offer-container-second-text-wrapper span:hover {
+        font-size: 22px;
+    }
+    .offer-container-upper, .offer-container-lower {
+        display: block;
+        text-align: -webkit-center;
+    }
+}
+
+@media (max-width: 649px) and (min-width: 550px) {
+    #Offer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .offer-container {
+        width: 90%;
+    }
+    .offer-container-box {
+        width: 88%;
+    }
+    .offer-container-box img {
+        width: 65%;
+        margin-top: 18px;
+    }
+    .offer-container-second-image {
+        display: none;
+    }
+    .offer-container-box h3 {
+        font-size: 20px;
+    }
+    .offer-container-first-text-wrapper li {
+        font-size: 20px;
+    }
+    .offer-container-transport {
+        font-size: 19px;
+    }
+    .offer-container-second-text-wrapper span:hover {
+        font-size: 22px;
+    }
+    .offer-container-upper, .offer-container-lower {
+        display: block;
+        text-align: -webkit-center;
+    }
+}
+
+@media (max-width: 549px) and (min-width: 450px) {
+    #Offer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .offer-container {
+        width: 90%;
+    }
+    .offer-container-box {
+        width: 88%;
+    }
+    .offer-container-box img {
+        width: 90%;
+        margin-top: 18px;
+    }
+    .offer-container-second-image {
+        display: none;
+    }
+    .offer-container-box h3 {
+        font-size: 20px;
+    }
+    .offer-container-first-text-wrapper li {
+        font-size: 20px;
+    }
+    .offer-container-transport {
+        font-size: 19px;
+    }
+    .offer-container-second-text-wrapper span:hover {
+        font-size: 22px;
+    }
+    .offer-container-upper, .offer-container-lower {
+        display: block;
+        text-align: -webkit-center;
+    }
+}
+
+@media (max-width: 449px) {
+    #Offer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .offer-container {
+        width: 94%;
+    }
+    .offer-container-box {
+        width: 88%;
+    }
+    .offer-container-box img {
+        width: 98%;
+        margin-top: 18px;
+    }
+    .offer-container-second-image {
+        display: none;
+    }
+    .offer-container-box h3 {
+        font-size: 16px;
+    }
+    .offer-container-first-text-wrapper li {
+        font-size: 16px;
+    }
+    .offer-container-transport {
+        font-size: 19px;
+    }
+    .offer-container-second-text-wrapper span:hover {
+        font-size: 18px;
+    }
+    .offer-container-upper, .offer-container-lower {
+        display: block;
+        text-align: -webkit-center;
+    }
+}
+
+
 
 
 
