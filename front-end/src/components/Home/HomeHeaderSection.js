@@ -8,8 +8,9 @@ class HomeHeaderSection extends React.Component {
                     <h1>Cytrynka</h1>
                 </div>
                 <div className="home-header-content">
-                    <h3>to nowoczesna pralnia wodna.</h3>
-                    <h3>Świadczymy usługi dla hoteli oraz dla biur i firm.</h3>
+                    <h3>nowoczesna pralnia wodna</h3>
+                    <h3>dla obiektów noclegowych, gastronomicznych,</h3>
+                    <h3>firm i klientów indywidualnych.</h3>
                 </div>
             </div>
         )
