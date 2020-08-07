@@ -37,7 +37,8 @@ function Offer(props)  {
                             <h3>cen oraz współpracy</h3>
                             <h3>prosimy o kontakt pod numerem telefonu</h3>
                             <h3><span>+48 573 355 294</span></h3> 
-                            <h3>mailowo bądź za pomocą</h3>
+                            <h3>mailowo: <span><a href="mailto: biuro@pralniacytrynka.pl">biuro@pralniacytrynka.pl</a></span></h3>
+                            <h3>bądź za pomocą</h3>
                             <h3><span onClick={() => props.history.push("/contact")}>formularza kontaktowego.</span></h3>
                         </div>
                         </div>

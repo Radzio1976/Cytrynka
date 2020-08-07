@@ -43,6 +43,10 @@
     text-align: center;
 }
 
+.offer-container-second-text-wrapper a {
+    text-decoration: none;
+}
+
 .offer-container-second-text-wrapper span {
     color: #5200EE;
     cursor: pointer;
