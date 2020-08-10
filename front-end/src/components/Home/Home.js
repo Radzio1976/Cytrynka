@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeHeaderSection from './HomeHeaderSection';
+import HomeFirstSection from './HomeFirstSection';
 import HomeSecondSection from './HomeSecondSection';
 import HomeThirdSection from './HomeThirdSection';
 import HomeFourthSection from './HomeFourthSection';
@@ -10,7 +10,7 @@ class Home extends React.Component {
     render() {
         return (
             <div id="Home">
-                <HomeHeaderSection />
+                <HomeFirstSection />
                 <HomeSecondSection />
                 <HomeThirdSection />
                 <HomeFourthSection />
