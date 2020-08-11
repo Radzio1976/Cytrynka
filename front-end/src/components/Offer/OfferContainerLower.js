@@ -6,7 +6,7 @@ function OfferContainerLower(props) {
                 <div className="offer-container-second-image offer-container-box">
                     <img src="./images/towel.jpg" alt="" />
                 </div>
-                <div className="offer-container-second-text offer-container-box">
+                <article className="offer-container-second-text offer-container-box">
                     <div className="offer-container-second-text-wrapper">
                         <h3>W celu uzyskania szczegółowych</h3>
                         <h3>informacji na temat oferty,</h3>
@@ -17,7 +17,7 @@ function OfferContainerLower(props) {
                         <h3>bądź za pomocą</h3>
                         <h3><span onClick={props.onClick}>formularza kontaktowego.</span></h3>
                     </div>
-                </div>
+                </article>
             </section>
         )
 }

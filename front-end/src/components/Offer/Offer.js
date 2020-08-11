@@ -7,13 +7,13 @@ import './offer.css';
 
 function Offer(props)  {
         return (
-            <div id="Offer">
+            <section id="Offer">
                 <div className="offer-container" style={{ backgroundImage: "url('./images/offer-background.png')" }}>
                     <OfferContainerUpper />
                     <OfferContainerLower onClick={() => props.history.push("/contact")}/>
                     <OfferContainerTransport />
                 </div>
-            </div>
+            </section>
         )
 }
 

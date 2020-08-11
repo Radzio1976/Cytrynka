@@ -115,7 +115,7 @@ class AddressAndContactFormContainerContentRight extends React.Component {
 
     render() {
         return (
-            <div className="address-and-contact-form-container-content-right">
+            <section className="address-and-contact-form-container-content-right">
                 {this.state.isValid === false ?
                     <form onSubmit={this.handleSubmit}>
                         <input type="text" name="name" value={this.state.name.value} onChange={this.handleChange} placeholder="Imię lub nazwa firmy*"></input>
@@ -132,7 +132,7 @@ class AddressAndContactFormContainerContentRight extends React.Component {
                     </form> :
                     <h1 style={{ alignSelf: "center", margin: "0 auto" }}>{this.state.success}</h1>
                 }
-            </div>
+            </section>
         )
     }
 }

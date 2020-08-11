@@ -8,7 +8,7 @@ import AddressAndContactFormContainerContentRight from './AddressAndContactFormC
 class Contact extends React.Component {
     render() {
         return (
-            <div id="Contact" style={{backgroundImage: "url('./images/washing-machine-drum.jpg')"}}>
+            <section id="Contact" style={{backgroundImage: "url('./images/washing-machine-drum.jpg')"}}>
                 <div className="contact-container">
                     <GoogleMapContainer />
                     <div className="address-and-contact-form-container">
@@ -19,7 +19,7 @@ class Contact extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }

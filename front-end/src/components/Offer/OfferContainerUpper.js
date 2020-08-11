@@ -4,7 +4,7 @@ class OfferContainerUpper extends React.Component {
     render() {
         return(
             <section className="offer-container-upper">
-                <div className="offer-container-first-text offer-container-box">
+                <article className="offer-container-first-text offer-container-box">
                     <div className="offer-container-first-text-wrapper">
                         <h3>Oferujemy :</h3>
                             <ul>
@@ -18,7 +18,7 @@ class OfferContainerUpper extends React.Component {
                             <h3>gastronomiczne, firmy,</h3>
                             <h3>klientów indywidualnych i wszystkich zainteresowanych.</h3>
                     </div>
-                </div>
+                </article>
                 <div className="offer-container-first-image offer-container-box">
                     <img src="./images/child.jpg" alt="" />
                 </div>

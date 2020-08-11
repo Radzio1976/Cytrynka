@@ -9,13 +9,13 @@ import './home.css'
 class Home extends React.Component {
     render() {
         return (
-            <div id="Home">
+            <section id="Home">
                 <HomeFirstSection />
                 <HomeSecondSection />
                 <HomeThirdSection />
                 <HomeFourthSection />
                 <HomeFifthSection />
-            </div>
+            </section>
         )
     }
 }

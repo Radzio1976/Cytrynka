@@ -3,7 +3,7 @@ import React from 'react';
 class AddressAndContactFormContainerContentLeft extends React.Component {
     render() {
         return (
-            <div className="address-and-contact-form-container-content-left">
+            <section className="address-and-contact-form-container-content-left">
                 <div className="address-and-contact-form-container-content-left-phone address-and-contact-container">
                     <img src="./images/phone-icon.png" alt=""></img>
                     <div className="address-and-contact-form-container-content-left-text">
@@ -26,7 +26,7 @@ class AddressAndContactFormContainerContentLeft extends React.Component {
                         <h5>biuro@pralniacytrynka.pl</h5>
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }

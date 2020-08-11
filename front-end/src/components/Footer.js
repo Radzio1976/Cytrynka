@@ -5,9 +5,9 @@ class Footer extends React.Component {
     render() {
         return (
             <footer id="footer">
-                <div className="footer-content">
+                <article className="footer-content">
                     <p>2019 NOWOCZESNA PRALNIA WODNA Cytrynka | Wszelkie prawa zastrzeżone Projekt: <a href = "mailto: r.tomaszewski@gmail.com">Radosław Tomaszewski</a></p>
-                </div>
+                </article>
             </footer>
         )
     }
